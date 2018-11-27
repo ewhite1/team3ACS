@@ -8,13 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team3_ACS_Project2
-{
-    public partial class Store : Form
-    {
-        public Store()
-        {
-            InitializeComponent();
-        }
+namespace Team3_ACS_Project2{
+    public partial class Store: Form{
+        public Store(){ InitializeComponent(); }
     }
 }

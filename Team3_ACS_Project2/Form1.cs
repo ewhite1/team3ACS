@@ -8,13 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team3_ACS_Project2
-{
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent();
+namespace Team3_ACS_Project2{
+    public partial class Form1: Form{
+        public Form1(){ InitializeComponent(); }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e){ Application.Exit(); }
+
+        private void helpToolStripMenuItem1_Click(object sender, EventArgs e){
+            Help help = new Help();
+            help.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e){
+            About about = new About();
+            about.Show();
+        }
+
+        private void shopVideoGamesToolStripMenuItem_Click(object sender, EventArgs e){
+            Store store = new Store();
+            store.Show();
         }
     }
 }

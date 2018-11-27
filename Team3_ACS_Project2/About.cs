@@ -8,13 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team3_ACS_Project2
-{
-    public partial class About : Form
-    {
-        public About()
-        {
-            InitializeComponent();
-        }
+namespace Team3_ACS_Project2{
+    public partial class About: Form{
+        public About(){ InitializeComponent(); }
+        private void btnClose_Click(object sender, EventArgs e){ Close(); }
     }
 }
