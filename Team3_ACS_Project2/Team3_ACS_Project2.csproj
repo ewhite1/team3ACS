@@ -103,6 +103,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Receipt.resx">
       <DependentUpon>Receipt.cs</DependentUpon>
@@ -122,6 +123,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSGO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dota2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Football_Manager_2019.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTA5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PUBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rainbow6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ring_of_Elysium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TF2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wraframe.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
