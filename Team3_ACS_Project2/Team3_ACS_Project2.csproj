@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Team3_ACS_Project2</RootNamespace>
     <AssemblyName>Team3_ACS_Project2</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -77,6 +78,7 @@
     <Compile Include="Receipt.Designer.cs">
       <DependentUpon>Receipt.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShopingCart.cs" />
     <Compile Include="Store.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Receipt.resx">
       <DependentUpon>Receipt.cs</DependentUpon>
@@ -122,6 +125,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTA5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TF2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSGO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dota2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Football_Manager_2019.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PUBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rainbow6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ring_Of_Elysium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wraframe.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

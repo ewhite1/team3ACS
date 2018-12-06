@@ -111,9 +111,9 @@
             // lbxCart
             // 
             this.lbxCart.FormattingEnabled = true;
-            this.lbxCart.Location = new System.Drawing.Point(213, 33);
+            this.lbxCart.Location = new System.Drawing.Point(12, 12);
             this.lbxCart.Name = "lbxCart";
-            this.lbxCart.Size = new System.Drawing.Size(375, 173);
+            this.lbxCart.Size = new System.Drawing.Size(375, 160);
             this.lbxCart.TabIndex = 22;
             // 
             // Receipt

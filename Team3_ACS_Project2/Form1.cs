@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Team3_ACS_Project2{
     public partial class Form1: Form{
+
         public Form1(){ InitializeComponent(); }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e){ Application.Exit(); }
@@ -27,6 +28,15 @@ namespace Team3_ACS_Project2{
         private void shopVideoGamesToolStripMenuItem_Click(object sender, EventArgs e){
             Store store = new Store();
             store.Show();
+        }
+
+        private void btnShop_Click(object sender, EventArgs e) {
+            Store store = new Store();
+            store.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e) {
+            Application.Exit();
         }
     }
 }
